@@ -30,11 +30,7 @@ function guardar() {
     newPrograma.setNombre(nombre);
     programas.push(newPrograma);
     var contenido = "";
-    for (var i = 0; i < programas.length; i++) {
-        var contenido = document.getElementById("listado").innerHTML;
-        contenido += "<li id= " + i + ">" + programas[i].getNombre() + "<input type='button' value='Borrar' onClick='removeProgram(" + i + ");'/>/</li>";
-    }
-    document.getElementById("listado").innerHTML = contenido;
+    Programa.pintarArray();
     document.getElementById("nombre").value = "";
 }
 function removeProgram(idNumber) {
