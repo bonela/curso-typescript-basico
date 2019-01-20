@@ -7,8 +7,8 @@ var Programa = /** @class */ (function () {
 }());
 var programas = [
     new Programa("Java", 8),
-    new Programa("PHP", 8),
-    new Programa("Angular 7", 8)
+    new Programa("PHP", 7),
+    new Programa("Angular", 7)
 ];
 //Recorremos el mapa y pintamos el contenido en la consola, usando función flecha y .map
 programas.map(function (programa) {

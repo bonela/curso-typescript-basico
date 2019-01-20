@@ -75,7 +75,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 210,
+				"buffer_size": 555,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -147,7 +147,10 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Maria Dolores/curso angularr4 Udemy/curso-angular4-instalacion2"
+		"/C/Users/Maria Dolores/curso angularr4 Udemy/curso-angular4-instalacion2",
+		"/C/Users/Maria Dolores/curso angularr4 Udemy/curso-angular4-instalacion2/src",
+		"/C/Users/Maria Dolores/curso angularr4 Udemy/curso-angular4-instalacion2/src/assets",
+		"/C/Users/Maria Dolores/curso angularr4 Udemy/curso-angular4-instalacion2/src/environments"
 	],
 	"file_history":
 	[
@@ -365,15 +368,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 210,
+						"buffer_size": 555,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								168,
-								168
+								0,
+								0
 							]
 						],
 						"settings":
